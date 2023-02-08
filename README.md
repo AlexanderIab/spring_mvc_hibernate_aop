@@ -11,13 +11,11 @@ Technology stack:
 - MySQL
 - Lombok
 - Tomcat
-
+<br>
 - Service Layer, DAO
 
-
-
-
-
+<br>
+<br>
 
 - Home page:
 ![2023-02-08_22-05-36](https://user-images.githubusercontent.com/100590447/217627729-c9957f27-b891-48a6-ae37-28348425d625.png)
