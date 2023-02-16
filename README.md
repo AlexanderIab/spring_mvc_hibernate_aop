@@ -13,7 +13,7 @@ Technology stack:
 - Tomcat
 <br>
 - Service Layer, DAO
-- 
+<br>
 - XML-file configuration
 
 
