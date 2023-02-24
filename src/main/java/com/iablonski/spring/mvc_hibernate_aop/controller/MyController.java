@@ -16,6 +16,11 @@ public class MyController {
 
     private EmployeeService employeeService;
 
+    @Autowired
+    public void setEmployeeService(EmployeeService employeeService) {
+        this.employeeService = employeeService;
+    }
+
     @RequestMapping("/")
     public String showAllEmployees(Model model){
         List<Employee> allEmployees = employeeService.getAllEmployees();
@@ -47,10 +52,5 @@ public class MyController {
     public String deleteEmployee(@RequestParam("empId") int id, Model model){
         employeeService.deleteEmployee(id);
         return "redirect:/";
-    }
-
-    @Autowired
-    public void setEmployeeDao(EmployeeService employeeService) {
-        this.employeeService = employeeService;
     }
 }
